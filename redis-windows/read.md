@@ -18,7 +18,7 @@
   
 >这样获取数据不方便，可以安装一个图形化界面来管理数据 RedisReact
 
-##安装RedisReact
+## 安装RedisReact
 
 windows平台直接下载安装包，双击即可运行
 

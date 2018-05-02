@@ -7,6 +7,15 @@
 
     ![image text](/redis-windows/img/tu2.PNG)
     
+>当然我们可以将redis-server注册为windows服务，这样方便以后打开:
+>
+>1. 运行cmd ,定位到我们的安装路径，输入
+> redis-server --service-install redis.windows.conf --loglevel verbose ,这样redis服务就注册到了Windows里。
+>2. 然后启动redis服务,输入 redis-server --service-start
+>
+>![image text](/redis-windows/img/tu5.PNG)
+>
+   
 3. 然后运行redis-cli.exe，可以在这里插入数据了
 
   ```
